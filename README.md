@@ -4,3 +4,7 @@ Based on lathoub's DualMerger.ino in the FortySevenEffects arduino_midi_library 
 
 This example uses two hardware serial ports Serial1 and Serial2.
 In order to be able to use Serial2 check the readme.txt in the variantFreddyMerger folder.
+
+## Hardware
+The hardware MIDI ins and outs might look something like this
+![MIDI ins and outs, a snippet from FreddyMerger.sch](frontEnd.png)
