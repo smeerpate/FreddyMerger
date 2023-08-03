@@ -52,6 +52,7 @@ void loop()
 {
   if (micros() > mulTime + APP_LOOP_US)
   {
+    mulTime = micros();
     muiMidiFlags = midiMergeTask();
     ledMidiATask(&muiMidiFlags);
     ledMidiBTask(&muiMidiFlags);
